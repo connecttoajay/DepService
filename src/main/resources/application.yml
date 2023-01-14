@@ -1,0 +1,8 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: Department-Service
+  config:
+    import: configserver:http://localhost:9004
